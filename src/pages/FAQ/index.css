@@ -1,0 +1,24 @@
+.faq {
+  background-color: #f6f8f7;
+  height: 100%;
+  height: 70vh;
+  padding: 4rem 10%;
+}
+
+.faqs .faqRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.faqAccordian {
+  /* width: 50%; */
+}
+
+.faqAccordian .accordion-header button {
+  box-shadow: none;
+  border: none;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.10980392156862745);
+}
