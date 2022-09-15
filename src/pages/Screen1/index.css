@@ -1,0 +1,109 @@
+.screen {
+  /* width: 100vw; */
+  background-color: #fff;
+  /* height: 100%; */
+  height: 67vh;
+  padding: 4rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen .horizontalTabs {
+  width: 35%;
+}
+
+.screen .horizontalTab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  /* margin: 1rem 0; */
+  border-right: 2px solid #ededed;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.screen .horizontalTab .svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #727272;
+}
+.screen .selected {
+  color: #4cabfd;
+  border-color: #4cabfd;
+}
+.screen .selected .svg {
+  background-color: #4cabfd;
+}
+.screen .selected svg path {
+  fill: #fff;
+}
+
+.screen .screenBody {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.screen .screenBody .tabImage {
+  width: 40%;
+}
+
+.screen .screenBody img {
+  max-width: 100%;
+}
+
+.screen .screenBody .bodyData {
+  width: 60%;
+}
+.screen .screenBody .bodyData .tag {
+  font-size: 12px;
+  color: #494949;
+}
+.screen .screenBody .bodyData .title {
+  font-size: 22px;
+  color: #464646;
+  margin: 1rem 0;
+}
+.screen .screenBody .bodyData .saperate {
+  width: 15%;
+  background-color: #494949;
+  height: 5px;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+.screen .screenBody .bodyData .descp {
+  font-size: 12px;
+  color: #727272;
+}
+.screen .screenBody .bodyData .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.screen .screenBody .bodyData .action {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #2e2e2e;
+}
+
+.screen .screenBody .bodyData .action span {
+  font-weight: bold;
+}
