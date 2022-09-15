@@ -1,0 +1,82 @@
+.screen3 {
+  background-color: #fff;
+  /* padding-top: 0rem;
+  padding-bottom: 0rem; */
+  padding-left: 0 !important;
+  overflow: hidden;
+  flex-direction: row-reverse;
+}
+
+.screen3 .screenData {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  padding: 4rem 0;
+  /* background-color: black; */
+  height: 100%;
+  padding-left: 2rem;
+
+  /* background-color: ; */
+}
+
+.screen3 .screenData .tag {
+  font-size: 12px;
+  color: #494949;
+  margin-bottom: 2rem;
+}
+.screen3 .screenData .title {
+  font-size: 22px;
+  color: #464646;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.screen3 .screenName {
+  position: relative;
+}
+.screen3 .screenName svg {
+  width: 100%;
+}
+
+.screen3 .screenName .screenNameTitle {
+  position: absolute;
+  top: 4rem;
+  font-size: 22px;
+}
+
+.screen3 .screenName .screenNameTitle .devider {
+  width: 60%;
+  background-color: #f5a041;
+  height: 4px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.screen3 .categories {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.screen3 .category {
+  border: 1px solid #707070;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.screen3 .screenImg {
+  width: 40%;
+  height: 90vh;
+  background-image: linear-gradient(to right, transparent, #f6f8f7 95%),
+    url('/public/assets/screen3.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.screen3 .screenImg img {
+  width: 100%;
+}
