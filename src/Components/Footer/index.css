@@ -1,0 +1,65 @@
+.footer {
+  background-color: #eff0f0;
+  height: 100%;
+  /* height: 70vh; */
+  padding: 2rem 10% 1rem;
+}
+
+.footer .footerSection {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1rem;
+}
+
+.footer .footerSection .getInTouch {
+  width: 30%;
+}
+.footer .footerSection .getInTouch .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #7f7f7f;
+}
+.footer .footerSection .getInTouch .contact div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer .footerSection .getInTouch .contact div svg {
+  width: 25px;
+}
+.footer .footerSection .getInTouch .socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.footer .footerSection .footerimg {
+  width: 40%;
+}
+
+.footer .footerSection .footerimg img {
+  max-width: 70%;
+}
+
+.footer .footerSection .quickLinks {
+  width: 10%;
+}
+
+.footer .footerSection .quickLinks .links {
+  color: #7f7f7f;
+}
+
+.footer .footerSection .quickLinks .links div {
+  margin: 10px 0;
+}
+
+.footer .footerCopyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #7f7f7f;
+  margin-top: 1rem;
+}
