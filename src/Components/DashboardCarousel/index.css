@@ -1,0 +1,44 @@
+.dashboardCarouselWrapper {
+  height: 90vh;
+  position: relative;
+}
+
+.dashboardCarousel img {
+  width: 100%;
+}
+
+.dashboardCarousel .carauselScreen {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardCarouselWrapper .carauselContent {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 101;
+  text-align: center;
+  flex-direction: column;
+}
+
+.dashboardCarouselWrapper .carauselContent .heroText {
+  width: 100%;
+  font-weight: 600;
+  font-size: 44px;
+}
+.dashboardCarouselWrapper .carauselContent .heroText span {
+  color: #f5a041;
+}
+
+.dashboardCarouselWrapper .downloadsBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
