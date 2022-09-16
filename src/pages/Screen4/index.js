@@ -3,19 +3,15 @@ import './index.css';
 
 export default function Screen4() {
   const categories = [
-    'Lawn Tennis',
-    'Ping Pong',
-    'Swimming',
-    'Badminton',
-    'Golf',
-    'Hockey',
-    'Volleyball',
-    'Basketball',
-    'Cricket',
+    'MMA Mixed Martial Arts',
+    'Karate',
+    'Taekwondo',
+    'Judo',
+    'Kung Fu',
   ];
 
   return (
-    <div className='screen screen2'>
+    <div className='screen4'>
       <div className='screenData'>
         <div>
           {/* <div className='tag'>Our Categories</div>

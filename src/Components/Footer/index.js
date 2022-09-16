@@ -6,7 +6,13 @@ export default function Footer() {
     <footer className='footer'>
       <div className='footerSection'>
         <div className='getInTouch'>
-          <div style={{ color: '#494949', marginBottom: '2rem' }}>
+          <div
+            style={{
+              color: '#494949',
+              marginBottom: '2rem',
+              fontWeight: '600',
+            }}
+          >
             Get In Touch
           </div>
 
@@ -113,7 +119,13 @@ export default function Footer() {
           <img src='/assets/footerImg.png' alt='footerImg' />
         </div>
         <div className='quickLinks'>
-          <div style={{ color: '#494949', marginBottom: '2rem' }}>
+          <div
+            style={{
+              color: '#494949',
+              marginBottom: '2rem',
+              fontWeight: '600',
+            }}
+          >
             Quick Links
           </div>
 
@@ -127,8 +139,17 @@ export default function Footer() {
         </div>
       </div>
       <div className='footerCopyright'>
-        <div>Copyright © 2022 Guruz. All rights reserved.</div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        <div style={{ fontWeight: '500' }}>
+          Copyright © 2022 Guruz. All rights reserved.
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '1rem',
+            fontWeight: '500',
+          }}
+        >
           <span>Privacy Policy</span>
           <span>Terms & Conditions </span>
         </div>

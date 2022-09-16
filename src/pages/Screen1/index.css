@@ -9,25 +9,36 @@
   align-items: center;
 }
 
-.screen .horizontalTabs {
-  width: 35%;
+.screen1 {
+  background-color: #fff;
+  padding: 4rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95vh;
 }
 
-.screen .horizontalTab {
+.screen1 .horizontalTabs {
+  width: 28%;
+}
+
+.screen1 .horizontalTab {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 1rem 1rem;
+  padding: 1.25rem 1rem;
   gap: 1rem;
   /* margin: 1rem 0; */
-  border-right: 2px solid #ededed;
+  border-right: 3px solid #ededed;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
 }
 
-.screen .horizontalTab .svg {
-  width: 40px;
-  height: 40px;
+.screen1 .horizontalTab .svg {
+  width: 34px;
+  height: 34px;
   border-radius: 100%;
   background-color: #ececec;
   display: flex;
@@ -35,75 +46,82 @@
   align-items: center;
   fill: #727272;
 }
-.screen .selected {
+.screen1 .selected {
   color: #4cabfd;
   border-color: #4cabfd;
 }
-.screen .selected .svg {
+.screen1 .selected .svg {
   background-color: #4cabfd;
 }
-.screen .selected svg path {
+.screen1 .selected svg {
+  width: 20px;
+}
+.screen1 .selected svg path {
   fill: #fff;
 }
 
-.screen .screenBody {
-  width: 65%;
+.screen1 .screenBody {
+  width: 72%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
+  gap: 1rem;
 }
 
-.screen .screenBody .tabImage {
-  width: 40%;
+.screen1 .screenBody .tabImage {
+  width: 50%;
 }
 
-.screen .screenBody img {
+.screen1 .screenBody img {
   max-width: 100%;
 }
 
-.screen .screenBody .bodyData {
-  width: 60%;
+.screen1 .screenBody .bodyData {
+  width: 50%;
+  padding-top: 4rem;
 }
-.screen .screenBody .bodyData .tag {
-  font-size: 12px;
+.screen1 .screenBody .bodyData .tag {
+  font-size: 14px;
   color: #494949;
+  font-weight: 600;
 }
-.screen .screenBody .bodyData .title {
-  font-size: 22px;
+.screen1 .screenBody .bodyData .title {
+  font-size: 36px;
   color: #464646;
   margin: 1rem 0;
+  font-weight: 600;
 }
-.screen .screenBody .bodyData .saperate {
-  width: 15%;
+.screen1 .screenBody .bodyData .saperate {
+  width: 20%;
   background-color: #494949;
-  height: 5px;
+  height: 4px;
   border-radius: 5px;
   margin: 1rem 0;
 }
-.screen .screenBody .bodyData .descp {
-  font-size: 12px;
+.screen1 .screenBody .bodyData .descp {
+  font-size: 15px;
   color: #727272;
 }
-.screen .screenBody .bodyData .actions {
+.screen1 .screenBody .bodyData .actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
   margin-top: 3rem;
 }
-.screen .screenBody .bodyData .action {
-  border: 1px solid #e0e0e0;
+.screen1 .screenBody .bodyData .action {
+  border: 1px solid #c9c9c9;
   padding: 10px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 15px;
   color: #2e2e2e;
 }
 
-.screen .screenBody .bodyData .action span {
+.screen1 .screenBody .bodyData .action span {
   font-weight: bold;
 }

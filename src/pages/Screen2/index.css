@@ -1,9 +1,12 @@
 .screen2 {
   background-color: #f6f8f7;
-  /* padding-top: 0rem;
-  padding-bottom: 0rem; */
+  padding: 4rem 10%;
   padding-right: 0 !important;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95vh;
 }
 
 .screen2 .screenData {
@@ -11,8 +14,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  width: 60%;
-  padding: 4rem 0;
+  width: 55%;
+  /* padding: 4rem 0; */
   /* background-color: black; */
   height: 100%;
 
@@ -20,12 +23,14 @@
 }
 
 .screen2 .screenData .tag {
-  font-size: 12px;
+  font-size: 14px;
   color: #494949;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 .screen2 .screenData .title {
-  font-size: 22px;
+  font-size: 35px;
   color: #464646;
   margin-bottom: 3rem;
   font-weight: 600;
@@ -41,7 +46,9 @@
 .screen2 .screenName .screenNameTitle {
   position: absolute;
   top: 4rem;
-  font-size: 22px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #464646;
 }
 
 .screen2 .screenName .screenNameTitle .devider {
@@ -59,6 +66,9 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
+  font-weight: 600;
+  color: #494949;
+  font-size: 14px;
 }
 .screen2 .category {
   border: 1px solid #707070;
@@ -67,11 +77,11 @@
 }
 
 .screen2 .screenImg {
-  width: 40%;
-  height: 90vh;
-  background-image: linear-gradient(to left, transparent, #f6f8f7 95%),
+  width: 45%;
+  height: 100vh;
+  background-image: linear-gradient(to left, transparent 60%, #f6f8f7 100%),
     url('/public/assets/screen2.png');
-  background-position: 0 0;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }

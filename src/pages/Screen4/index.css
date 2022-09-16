@@ -1,17 +1,22 @@
-.screen2 {
+.screen4 {
   background-color: #f6f8f7;
   /* padding-top: 0rem;
   padding-bottom: 0rem; */
+  padding: 4rem 10%;
   padding-right: 0 !important;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95vh;
 }
 
-.screen2 .screenData {
+.screen4 .screenData {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  width: 60%;
+  width: 55%;
   padding: 4rem 0;
   /* background-color: black; */
   height: 100%;
@@ -19,32 +24,34 @@
   /* background-color: ; */
 }
 
-.screen2 .screenData .tag {
+.screen4 .screenData .tag {
   font-size: 12px;
   color: #494949;
   margin-bottom: 2rem;
 }
-.screen2 .screenData .title {
+.screen4 .screenData .title {
   font-size: 22px;
   color: #464646;
   margin-bottom: 3rem;
   font-weight: 600;
 }
 
-.screen2 .screenName {
+.screen4 .screenName {
   position: relative;
 }
-.screen2 .screenName svg {
+.screen4 .screenName svg {
   width: 100%;
 }
 
-.screen2 .screenName .screenNameTitle {
+.screen4 .screenName .screenNameTitle {
   position: absolute;
-  top: 2rem;
-  font-size: 22px;
+  top: 1rem;
+  font-size: 28px;
+  font-weight: 500;
+  color: #464646;
 }
 
-.screen2 .screenName .screenNameTitle .devider {
+.screen4 .screenName .screenNameTitle .devider {
   width: 60%;
   background-color: #f5a041;
   height: 4px;
@@ -52,29 +59,32 @@
   margin: 5px 0;
 }
 
-.screen2 .categories {
+.screen4 .categories {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
+  font-weight: 600;
+  color: #494949;
+  font-size: 14px;
 }
-.screen2 .category {
+.screen4 .category {
   border: 1px solid #707070;
   padding: 10px 20px;
   border-radius: 10px;
 }
 
-.screen2 .screenImg {
-  width: 40%;
-  height: 90vh;
-  background-image: linear-gradient(to left, transparent, #f6f8f7 95%),
+.screen4 .screenImg {
+  width: 45%;
+  height: 100vh;
+  background-image: linear-gradient(to left, transparent 60%, #f6f8f7 95%),
     url('/public/assets/screen4.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.screen2 .screenImg img {
+.screen4 .screenImg img {
   width: 100%;
 }

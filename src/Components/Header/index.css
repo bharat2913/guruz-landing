@@ -9,11 +9,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 10%;
+  padding: 0.6rem 10%;
 }
 
 .guruz_header .logo svg {
-  width: 100px;
+  width: 120px;
 }
 
 .guruz_header .links {
@@ -21,7 +21,9 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 14px;
+  color: '#494949';
 }
 
 .guruz_header .links span {
@@ -30,8 +32,10 @@
 
 .guruz_header .getStarted button {
   background-color: #f5a041;
-  padding: 0.5rem 1.25rem;
-  border-radius: 8px;
+  padding: 0.4rem 2rem;
+  border-radius: 5px;
   color: #fff;
   border: none;
+  font-size: 14px;
+  font-weight: 600;
 }

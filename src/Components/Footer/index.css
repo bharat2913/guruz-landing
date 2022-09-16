@@ -13,13 +13,14 @@
 }
 
 .footer .footerSection .getInTouch {
-  width: 30%;
+  width: 25%;
 }
 .footer .footerSection .getInTouch .contact {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   color: #7f7f7f;
+  font-weight: 500;
 }
 .footer .footerSection .getInTouch .contact div {
   display: flex;
@@ -38,10 +39,11 @@
 
 .footer .footerSection .footerimg {
   width: 40%;
+  margin-left: -4rem;
 }
 
 .footer .footerSection .footerimg img {
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .footer .footerSection .quickLinks {
@@ -50,6 +52,7 @@
 
 .footer .footerSection .quickLinks .links {
   color: #7f7f7f;
+  font-weight: 500;
 }
 
 .footer .footerSection .quickLinks .links div {

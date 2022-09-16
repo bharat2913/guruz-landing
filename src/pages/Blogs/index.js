@@ -5,8 +5,12 @@ export default function Blogs() {
   return (
     <div className='blogs'>
       <div className='blogsText'>
-        <div style={{ fontSize: '14px', color: '#F5A041' }}>Editors Pick</div>
-        <div style={{ fontSize: '28px', color: '#393939' }}>Our Blogs</div>
+        <div style={{ fontSize: '14px', color: '#F5A041', fontWeight: '600' }}>
+          Editors Pick
+        </div>
+        <div style={{ fontSize: '32px', color: '#393939', fontWeight: '600' }}>
+          Our Blogs
+        </div>
         <div style={{ fontSize: '13', color: '#c3c3c3' }}>
           Sed ut perspicia unde omnis natus error sit volupt accusantium
           doloremque laudantium totam rem aperiam eaque quae

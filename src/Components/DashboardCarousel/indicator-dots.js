@@ -7,11 +7,11 @@ function Dot(props) {
       style={{
         display: 'inline-block',
         height: '8px',
-        width: '8px',
+        width: props.selected ? '25px' : '8px',
         borderRadius: '4px',
-        backgroundColor: 'white',
+        backgroundColor: '#F5A041',
         margin: '7px 5px',
-        opacity: props.selected ? '1' : '0.3',
+        opacity: props.selected ? '1' : '0.6',
         transitionDuration: '300ms',
       }}
     />

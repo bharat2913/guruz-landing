@@ -8,8 +8,8 @@ export default function FAQ() {
       <div
         style={{
           textAlign: 'center',
-          fontSize: '26px',
-          fontWeight: '500',
+          fontSize: '32px',
+          fontWeight: '600',
           color: '#464646',
           marginBottom: '3rem',
         }}

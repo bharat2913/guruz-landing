@@ -6,7 +6,7 @@ export default function Screen1() {
   const [tab, setTab] = useState(1);
 
   return (
-    <div className='screen screen1'>
+    <div className='screen1'>
       <div className='horizontalTabs'>
         <div
           className={`horizontalTab ${tab === 1 && 'selected'}`}
@@ -85,7 +85,7 @@ export default function Screen1() {
                 />
               </svg>
               <div>
-                Available on the
+                Available on the <br />
                 <span> App Store</span>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function Screen1() {
                 />
               </svg>
               <div>
-                Available on the
+                Available on the <br />
                 <span> Google Play</span>
               </div>
             </div>

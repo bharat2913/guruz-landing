@@ -15,7 +15,7 @@ export default function Screen2() {
   ];
 
   return (
-    <div className='screen2 screen'>
+    <div className='screen2'>
       <div className='screenData'>
         <div>
           <div className='tag'>Our Categories</div>

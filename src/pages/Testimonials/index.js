@@ -5,10 +5,10 @@ export default function Testimonials() {
   return (
     <div className='testimonials'>
       <div style={{ marginBottom: '2rem' }}>
-        <div style={{ color: '#494949', fontSize: '12px' }}>
+        <div style={{ color: '#494949', fontSize: '14px', fontWeight: '600' }}>
           Client Testimonials
         </div>
-        <div style={{ color: '#494949', fontSize: '22px' }}>
+        <div style={{ color: '#494949', fontSize: '32px', fontWeight: '600' }}>
           See what our customer Says!
         </div>
       </div>
@@ -51,20 +51,25 @@ export default function Testimonials() {
           </div>
           <div
             className='testimonialText'
-            style={{ color: '#494949', fontSize: '14px', margin: '1rem 0' }}
+            style={{
+              color: '#494949',
+              fontSize: '14px',
+              margin: '1rem 0',
+              fontWeight: '600',
+            }}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud.
           </div>
           <div
-            style={{ color: '#494949', fontSize: '18px' }}
+            style={{ color: '#494949', fontSize: '20px', fontWeight: '600' }}
             className='testimonialAuthor'
           >
             Mitchelle Marsh
           </div>
           <div
-            style={{ color: '#494949', fontSize: '14px' }}
+            style={{ color: '#494949', fontSize: '14px', fontWeight: '600' }}
             className='testimonialAuthorPosition'
           >
             Head Coach

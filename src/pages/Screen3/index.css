@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  width: 60%;
+  width: 55%;
   padding: 4rem 0;
   /* background-color: black; */
   height: 100%;
@@ -37,13 +37,15 @@
   position: relative;
 }
 .screen3 .screenName svg {
-  width: 100%;
+  width: 80%;
 }
 
 .screen3 .screenName .screenNameTitle {
   position: absolute;
-  top: 4rem;
-  font-size: 22px;
+  top: 3.5rem;
+  font-size: 28px;
+  font-weight: 500;
+  color: #464646;
 }
 
 .screen3 .screenName .screenNameTitle .devider {
@@ -51,7 +53,7 @@
   background-color: #f5a041;
   height: 4px;
   border-radius: 10px;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .screen3 .categories {
@@ -61,6 +63,9 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
+  font-weight: 600;
+  color: #494949;
+  font-size: 14px;
 }
 .screen3 .category {
   border: 1px solid #707070;
@@ -69,9 +74,9 @@
 }
 
 .screen3 .screenImg {
-  width: 40%;
-  height: 90vh;
-  background-image: linear-gradient(to right, transparent, #f6f8f7 95%),
+  width: 45%;
+  height: 100vh;
+  background-image: linear-gradient(to right, transparent 40%, #fff 100%),
     url('/public/assets/screen3.png');
   background-position: 0 0;
   background-repeat: no-repeat;

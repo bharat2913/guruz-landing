@@ -11,22 +11,48 @@ export default function DashboardCarousel() {
         auto
         className='dashboardCarousel'
         widgets={[IndicatorDots, Buttons]}
+        loop
+        interval={2000}
       >
-        <div className='carauselScreen'>
-          <img src='/assets/main_1.png' alt='main_1' />
+        <div
+          className='carauselScreen'
+          style={{
+            backgroundImage:
+              "linear-gradient(to bottom, transparent 70%, #fff 100%), url('/assets/main_1.png')",
+          }}
+        >
+          {/* <img src='/assets/main_1.png' alt='main_1' /> */}
           <CarouselContent />
         </div>
-        <div className='carauselScreen'>
-          <img src='/assets/main_2.png' alt='main_2' />
+        <div
+          className='carauselScreen'
+          style={{
+            backgroundImage:
+              "linear-gradient(to bottom, transparent 70%, #fff 100%), url('/assets/main_3.png')",
+          }}
+        >
+          {/* <img src='/assets/main_2.png' alt='main_2' /> */}
           <CarouselContent />
         </div>
-        <div className='carauselScreen'>
-          <img src='/assets/main_3.png' alt='main_3' />
-          <CarouselContent />
+        <div
+          className='carauselScreen'
+          style={{
+            backgroundImage:
+              "linear-gradient(to bottom, transparent 70%, #fff 100%), url('/assets/main_4.png')",
+          }}
+        >
+          {/* <img src='/assets/main_3.png' alt='main_3' /> */}
+          <CarouselContent color='white' />
         </div>
-        <div className='carauselScreen'>
-          <img src='/assets/main_4.png' alt='main_4' />
-          <CarouselContent />
+        <div
+          className='carauselScreen'
+          style={{
+            backgroundImage:
+              "linear-gradient(to bottom, transparent 70%, #fff 100%), url('/assets/main_2.png')",
+          }}
+        >
+          {/* <img src='/assets/main_4.png' alt='main_4' /> */}
+          <CarouselContent color='white' />
         </div>
       </Carousel>
       {/* <div className='fadeOut'></div> */}
@@ -34,10 +60,10 @@ export default function DashboardCarousel() {
   );
 }
 
-const CarouselContent = () => {
+const CarouselContent = ({ color }) => {
   return (
     <div className='carauselContent'>
-      <div className='heroText'>
+      <div className='heroText' style={{ color: color }}>
         Upskill Your Passion With <span>Guruz App</span>
       </div>
       <div className='downloadsBtns'>
