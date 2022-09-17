@@ -32,7 +32,7 @@ export default function Footer() {
                   fill='#f5a041'
                 />
               </svg>
-              support@appie.com
+              <div>support@appie.com</div>
             </div>
             <div>
               <svg

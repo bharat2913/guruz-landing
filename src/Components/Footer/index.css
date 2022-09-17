@@ -66,3 +66,45 @@
   color: #7f7f7f;
   margin-top: 1rem;
 }
+
+@media (max-width: 426px) {
+  .footer {
+    height: auto;
+    padding: 2rem 2rem 1rem;
+    font-size: 14px;
+  }
+  .footer .footerSection .footerimg {
+    display: none;
+  }
+  .footer .footerSection .getInTouch {
+    width: 50%;
+    text-align: left;
+  }
+  .footer .footerSection .quickLinks {
+    width: 50%;
+    text-align: right;
+  }
+  .footer .footerSection .getInTouch .contact {
+    gap: 10px;
+    font-size: 13px;
+  }
+  .footer .footerSection .getInTouch .contact div {
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .footer .footerSection .getInTouch .contact div svg {
+    width: 35px;
+  }
+  .footer .footerSection .getInTouch .contact div:first-child svg {
+    width: 15px;
+  }
+  .footer .footerSection .getInTouch .contact div:last-child svg {
+    width: 14px;
+  }
+  .footer .footerCopyright {
+    font-size: 13px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

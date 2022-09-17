@@ -15,7 +15,7 @@ export default function Screen1() {
           <div className='svg'>
             <Explore />
           </div>
-          <div>Explore and find guruz</div>
+          <div className='tabText'>Explore and find guruz</div>
         </div>
         <div
           className={`horizontalTab ${tab === 2 && 'selected'}`}
@@ -24,7 +24,7 @@ export default function Screen1() {
           <div className='svg'>
             <Message />
           </div>
-          <div>Individual and Group Messages</div>
+          <div className='tabText'>Individual and Group Messages</div>
         </div>
         <div
           className={`horizontalTab ${tab === 3 && 'selected'}`}
@@ -33,7 +33,7 @@ export default function Screen1() {
           <div className='svg'>
             <Calender />
           </div>
-          <div>Enroll Batches Nearby</div>
+          <div className='tabText'>Enroll Batches Nearby</div>
         </div>
         <div
           className={`horizontalTab ${tab === 4 && 'selected'}`}
@@ -42,7 +42,7 @@ export default function Screen1() {
           <div className='svg'>
             <Calender />
           </div>
-          <div>View and Manage Batches</div>
+          <div className='tabText'>View and Manage Batches</div>
         </div>
         <div
           className={`horizontalTab ${tab === 5 && 'selected'}`}
@@ -51,7 +51,7 @@ export default function Screen1() {
           <div className='svg'>
             <Dollor />
           </div>
-          <div>Fees Management</div>
+          <div className='tabText'>Fees Management</div>
         </div>
       </div>
       <div className='screenBody'>

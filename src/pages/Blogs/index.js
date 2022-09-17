@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 
 export default function Blogs() {
+  const navigate = useNavigate();
   return (
     <div className='blogs'>
       <div className='blogsText'>
@@ -17,11 +19,11 @@ export default function Blogs() {
         </div>
 
         <div className='blogAction'>
-          <button>View all</button>
+          <button onClick={() => navigate(`/blogs`)}>View all</button>
         </div>
       </div>
       <div className='blogsLinks'>
-        <div className='blog'>
+        <div onClick={() => navigate(`/blog/1`)} className='blog'>
           <img src='/assets/blog1.png' alt='blog1' />
           <div className='blogData'>
             <div>How I found my guitar coach</div>
@@ -29,14 +31,18 @@ export default function Blogs() {
           </div>
         </div>
         <div>
-          <div className='blog' style={{ marginBottom: '1rem' }}>
+          <div
+            onClick={() => navigate(`/blog/2`)}
+            className='blog'
+            style={{ marginBottom: '1rem' }}
+          >
             <img src='/assets/blog2.png' alt='blog2' />
             <div className='blogData'>
               <div>Why verified guruz earn more!</div>
               <div style={{ fontSize: '14px' }}>By Alice . Nov 18 2021</div>
             </div>
           </div>
-          <div className='blog'>
+          <div onClick={() => navigate(`/blog/3`)} className='blog'>
             <img src='/assets/blog3.png' alt='blog3' />
             <div className='blogData'>
               <div>Importance of fitness guruz</div>

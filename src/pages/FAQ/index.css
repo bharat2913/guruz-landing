@@ -4,6 +4,13 @@
   height: 80vh;
   padding: 4rem 10%;
 }
+.faq .title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #464646;
+  margin-bottom: 3rem;
+}
 
 .faqs .faqRow {
   display: flex;
@@ -11,6 +18,9 @@
   align-items: flex-start;
   gap: 1rem;
   margin: 1rem 0;
+}
+.faqs .faqRow .faqItem {
+  width: 50%;
 }
 
 .faqAccordian {
@@ -21,4 +31,22 @@
   box-shadow: none;
   border: none;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.10980392156862745);
+}
+
+@media (max-width: 426px) {
+  .faq {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .faq .title {
+    font-size: 22px;
+  }
+  .faqs .faqRow {
+    flex-direction: column;
+  }
+
+  .faqs .faqRow .faqItem {
+    width: 100%;
+  }
 }

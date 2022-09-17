@@ -88,3 +88,34 @@
 .screen4 .screenImg img {
   width: 100%;
 }
+
+@media (max-width: 426px) {
+  .screen4 {
+    padding: 2rem !important;
+    height: auto;
+  }
+  .screen4 .screenImg {
+    display: none;
+  }
+  .screen4 .screenData {
+    padding: 0;
+    width: auto;
+  }
+  .screen4 .screenData .title {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  .screen4 .screenName .screenNameTitle {
+    top: 1.5rem;
+  }
+  .screen4 .screenName svg {
+    width: 80%;
+    height: 90px;
+  }
+  .screen4 .categories {
+    font-size: 12px;
+  }
+  .screen4 .category {
+    padding: 8px 15px;
+  }
+}

@@ -15,7 +15,7 @@ export default function Screen5() {
           <div className='svg'>
             <Explore />
           </div>
-          <div>Find what students are looking for</div>
+          <div className='tabText'>Find what students are looking for</div>
         </div>
         <div
           className={`horizontalTab ${tab === 2 && 'selected'}`}
@@ -24,7 +24,7 @@ export default function Screen5() {
           <div className='svg'>
             <Message />
           </div>
-          <div>Individual and Group Messages</div>
+          <div className='tabText'>Individual and Group Messages</div>
         </div>
         <div
           className={`horizontalTab ${tab === 3 && 'selected'}`}
@@ -33,7 +33,7 @@ export default function Screen5() {
           <div className='svg'>
             <Calender />
           </div>
-          <div>Find what other coaches are doing</div>
+          <div className='tabText'>Find what other coaches are doing</div>
         </div>
         <div
           className={`horizontalTab ${tab === 4 && 'selected'}`}
@@ -42,7 +42,7 @@ export default function Screen5() {
           <div className='svg'>
             <Calender />
           </div>
-          <div>Create and Manage Batches</div>
+          <div className='tabText'>Create and Manage Batches</div>
         </div>
         <div
           className={`horizontalTab ${tab === 5 && 'selected'}`}
@@ -51,7 +51,7 @@ export default function Screen5() {
           <div className='svg'>
             <Dollor />
           </div>
-          <div>Earnings History</div>
+          <div className='tabText'>Earnings History</div>
         </div>
       </div>
       <div className='screenBody'>

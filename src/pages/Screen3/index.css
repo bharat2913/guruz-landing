@@ -85,3 +85,34 @@
 .screen3 .screenImg img {
   width: 100%;
 }
+
+@media (max-width: 426px) {
+  .screen3 {
+    padding: 2rem !important;
+    height: auto;
+  }
+  .screen3 .screenImg {
+    display: none;
+  }
+  .screen3 .screenData {
+    padding: 0;
+    width: auto;
+  }
+  .screen3 .screenData .title {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  .screen3 .screenName .screenNameTitle {
+    top: 1.5rem;
+  }
+  .screen3 .screenName svg {
+    width: 80%;
+    height: 90px;
+  }
+  .screen3 .categories {
+    font-size: 12px;
+  }
+  .screen3 .category {
+    padding: 8px 15px;
+  }
+}

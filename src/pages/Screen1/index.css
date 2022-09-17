@@ -105,7 +105,7 @@
 }
 .screen1 .screenBody .bodyData .actions {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   margin-top: 3rem;
@@ -124,4 +124,44 @@
 
 .screen1 .screenBody .bodyData .action span {
   font-weight: bold;
+}
+
+@media (max-width: 426px) {
+  .screen1 {
+    padding: 2rem 1%;
+    display: block;
+    height: auto;
+  }
+  .screen1 .horizontalTabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .screen1 .horizontalTab {
+    border-right: none;
+    border-bottom: 3px solid #ededed;
+  }
+  .screen1 .selected {
+    color: #4cabfd;
+    border-bottom: 3px solid #4cabfd;
+  }
+  .screen1 .tabText {
+    display: none;
+  }
+  .screen1 .screenBody {
+    width: auto;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .screen1 .screenBody .tabImage {
+    width: 80%;
+  }
+  .screen1 .screenBody .bodyData {
+    width: auto;
+  }
+  .screen1 .screenBody .bodyData .action {
+    font-size: 11px;
+  }
 }

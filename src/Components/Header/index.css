@@ -39,3 +39,17 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+@media (max-width: 426px) {
+  .guruz_header .logo svg {
+    width: 90px;
+  }
+  .guruz_header .links {
+    display: none;
+  }
+
+  .guruz_header .getStarted button {
+    padding: 0.4rem 1rem;
+    font-size: 14px;
+  }
+}

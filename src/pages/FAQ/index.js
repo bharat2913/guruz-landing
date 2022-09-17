@@ -6,6 +6,7 @@ export default function FAQ() {
   return (
     <div className='faq'>
       <div
+        className='title'
         style={{
           textAlign: 'center',
           fontSize: '32px',
@@ -18,7 +19,7 @@ export default function FAQ() {
       </div>
       <div className='faqs'>
         <div className='faqRow'>
-          <div style={{ width: '50%' }}>
+          <div className='faqItem'>
             <Accordion className='faqAccordian'>
               <Accordion.Item eventKey='0'>
                 <Accordion.Header>How to create a new batch?</Accordion.Header>
@@ -35,7 +36,7 @@ export default function FAQ() {
               </Accordion.Item>
             </Accordion>
           </div>
-          <div style={{ width: '50%' }}>
+          <div className='faqItem'>
             <Accordion className='faqAccordian'>
               <Accordion.Item eventKey='0'>
                 <Accordion.Header>
@@ -56,7 +57,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className='faqRow'>
-          <div style={{ width: '50%' }}>
+          <div className='faqItem'>
             <Accordion className='faqAccordian'>
               <Accordion.Item eventKey='0'>
                 <Accordion.Header>
@@ -75,7 +76,7 @@ export default function FAQ() {
               </Accordion.Item>
             </Accordion>
           </div>
-          <div style={{ width: '50%' }}>
+          <div className='faqItem'>
             <Accordion className='faqAccordian'>
               <Accordion.Item eventKey='0'>
                 <Accordion.Header>
@@ -96,7 +97,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className='faqRow'>
-          <div style={{ width: '50%' }}>
+          <div className='faqItem'>
             <Accordion className='faqAccordian'>
               <Accordion.Item eventKey='0'>
                 <Accordion.Header>
@@ -115,7 +116,7 @@ export default function FAQ() {
               </Accordion.Item>
             </Accordion>
           </div>
-          <div style={{ width: '50%' }}>
+          <div className='faqItem'>
             <Accordion className='faqAccordian'>
               <Accordion.Item eventKey='0'>
                 <Accordion.Header>

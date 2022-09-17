@@ -1,37 +1,7 @@
-/* .screen {
-  background-color: #fff;
-  padding: 4rem 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .screen .horizontalTabs {
   width: 29%;
 }
 
-.screen5 .horizontalTab {
-  /* display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 1rem 1rem;
-  gap: 1rem;
-  border-right: 2px solid #ededed;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer; */
-  /* font-size: 15px; */
-}
-
-/* .screen .horizontalTab .svg {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: #ececec;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: #727272;
-} */
 .screen5 .selected {
   color: #f5a041;
   border-color: #f5a041;
@@ -45,62 +15,55 @@
 
 .screen .screenBody {
   width: 71%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2rem; */
 }
 
-/* .screen .screenBody .tabImage {
-  width: 40%;
-} */
-
-/* .screen .screenBody img {
-  max-width: 100%;
-} */
-
-/* .screen .screenBody .bodyData {
-  width: 60%;
-} */
-/* .screen .screenBody .bodyData .tag {
-  font-size: 12px;
-  color: #494949;
-} */
 .screen5 .screenBody .bodyData .title {
   font-size: 32px;
-  /* color: #464646;
-  margin: 1rem 0; */
 }
-/* .screen .screenBody .bodyData .saperate {
-  width: 15%;
-  background-color: #494949;
-  height: 5px;
-  border-radius: 5px;
-  margin: 1rem 0;
-} */
-/* .screen .screenBody .bodyData .descp {
-  font-size: 12px;
-  color: #727272;
-} */
-/* .screen .screenBody .bodyData .actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 3rem;
-} */
 .screen5 .screenBody .bodyData .action {
-  /* border: 1px solid #e0e0e0; */
-  /* padding: 10px; */
-  /* border-radius: 10px; */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* gap: 10px; */
   font-size: 14px;
-  /* color: #2e2e2e; */
 }
 
 .screen5 .screenBody .bodyData .action span {
   font-weight: bold;
+}
+
+@media (max-width: 426px) {
+  .screen5 {
+    padding: 2rem 1%;
+    display: block;
+    height: auto;
+  }
+  .screen5 .horizontalTabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .screen5 .horizontalTab {
+    border-right: none;
+    border-bottom: 3px solid #ededed;
+  }
+  .screen5 .selected {
+    color: #f5a041;
+    border-bottom: 3px solid #f5a041;
+  }
+  .screen5 .tabText {
+    display: none;
+  }
+  .screen5 .screenBody {
+    width: auto;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .screen5 .screenBody .tabImage {
+    width: 80%;
+  }
+  .screen5 .screenBody .bodyData {
+    width: auto;
+  }
+  .screen5 .screenBody .bodyData .action {
+    font-size: 11px;
+  }
 }

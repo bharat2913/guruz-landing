@@ -52,3 +52,16 @@
 .blogs .blogsLinks .dots svg {
   width: 200px;
 }
+
+@media (max-width: 426px) {
+  .blogs {
+    height: auto;
+    padding: 2rem;
+  }
+  .blogs .blogsLinks {
+    display: none;
+  }
+  .blogs .blogsText {
+    width: auto;
+  }
+}

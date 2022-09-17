@@ -50,3 +50,12 @@
 .dashboardCarouselWrapper .downloadsBtns svg {
   width: 180px;
 }
+
+@media (max-width: 426px) {
+  .dashboardCarouselWrapper .carauselContent .heroText {
+    font-size: 24px;
+  }
+  .dashboardCarouselWrapper .downloadsBtns svg {
+    width: 110px;
+  }
+}
