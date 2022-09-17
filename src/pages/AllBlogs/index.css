@@ -42,3 +42,27 @@
   font-weight: 500;
   color: #736f6f;
 }
+
+@media (max-width: 426px) {
+  .allBlogs {
+    background-color: #fff;
+    padding: 2rem;
+  }
+  .allBlogs .blogItem {
+    gap: 1rem;
+  }
+  .allBlogs .blogItem .img {
+    width: 60%;
+  }
+  .allBlogs .blogItem .blogItemBody .title {
+    font-size: 16px;
+    margin-bottom: 3rem;
+  }
+
+  .allBlogs .blogItem .blogItemBody .author {
+    font-size: 14px;
+  }
+  .allBlogs .blogItem .blogItemBody .createdOn {
+    font-size: 14px;
+  }
+}

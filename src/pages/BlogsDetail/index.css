@@ -2,3 +2,18 @@
   background-color: #fff;
   padding: 4rem 10%;
 }
+.blogDetail .blogTitle {
+  font-size: 42px;
+  color: #393939;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 426px) {
+  .blogDetail {
+    padding: 2rem;
+  }
+  .blogDetail .blogTitle {
+    font-size: 32px;
+  }
+}

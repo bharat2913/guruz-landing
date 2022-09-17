@@ -11,16 +11,7 @@ export default function BlogsDetail() {
         <div style={{ fontSize: '16px', color: '#F5A041', fontWeight: '600' }}>
           Editors Pick
         </div>
-        <div
-          style={{
-            fontSize: '42px',
-            color: '#393939',
-            fontWeight: '600',
-            marginBottom: '2rem',
-          }}
-        >
-          How I found my guitar coach
-        </div>
+        <div className='blogTitle'>How I found my guitar coach</div>
         <div style={{ fontSize: '14', color: '#878787' }}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
