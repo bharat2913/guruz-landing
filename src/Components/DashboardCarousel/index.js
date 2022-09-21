@@ -6,7 +6,7 @@ import Buttons from './buttons';
 
 export default function DashboardCarousel() {
   return (
-    <div className='dashboardCarouselWrapper'>
+    <div id='Home' className='dashboardCarouselWrapper'>
       <Carousel
         auto
         className='dashboardCarousel'

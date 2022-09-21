@@ -26,7 +26,7 @@ export default function IndicatorDots(props) {
     bottom: '0px',
     textAlign: 'center',
   };
-  console.log(props);
+  // console.log(props);
 
   if (props.total < 2) {
     // Hide dots when there is only one dot.

@@ -4,7 +4,7 @@ import './index.css';
 
 export default function FAQ() {
   return (
-    <div className='faq'>
+    <div id='FAQ' className='faq'>
       <div
         className='title'
         style={{

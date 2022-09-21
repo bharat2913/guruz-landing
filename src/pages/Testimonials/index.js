@@ -16,7 +16,7 @@ export default function Testimonials() {
   };
 
   return (
-    <div className='testimonials'>
+    <div id='Testimonials' className='testimonials'>
       <div style={{ marginBottom: '2rem' }}>
         <div style={{ color: '#494949', fontSize: '14px', fontWeight: '600' }}>
           Client Testimonials
@@ -84,7 +84,7 @@ export default function Testimonials() {
             style={{ display: !(testmonialOpened === 1) && 'none' }}
             className='testmonialContent'
           >
-            <div>
+            <div className='svgIcon'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='132.913'
@@ -100,6 +100,15 @@ export default function Testimonials() {
                   opacity='0.913'
                 />
               </svg>
+            </div>
+            <div className='userImage userIamgePhn'>
+              <img
+                src='/assets/testimonials1.png'
+                alt='testimonials1'
+                style={{
+                  width: '180px',
+                }}
+              />
             </div>
             <div
               className='testimonialText'
@@ -149,7 +158,7 @@ export default function Testimonials() {
             style={{ display: !(testmonialOpened === 2) && 'none' }}
             className='testmonialContent'
           >
-            <div>
+            <div className='svgIcon'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='132.913'
@@ -165,6 +174,16 @@ export default function Testimonials() {
                   opacity='0.913'
                 />
               </svg>
+            </div>
+
+            <div className='userImage userIamgePhn'>
+              <img
+                src='/assets/testimonials2.png'
+                alt='testimonials1'
+                style={{
+                  width: '180px',
+                }}
+              />
             </div>
             <div
               className='testimonialText'
@@ -214,7 +233,7 @@ export default function Testimonials() {
             style={{ display: !(testmonialOpened === 3) && 'none' }}
             className='testmonialContent'
           >
-            <div>
+            <div className='svgIcon'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='132.913'
@@ -230,6 +249,16 @@ export default function Testimonials() {
                   opacity='0.913'
                 />
               </svg>
+            </div>
+
+            <div className='userImage userIamgePhn'>
+              <img
+                src='/assets/testimonials2.png'
+                alt='testimonials1'
+                style={{
+                  width: '180px',
+                }}
+              />
             </div>
             <div
               className='testimonialText'
@@ -279,7 +308,7 @@ export default function Testimonials() {
             style={{ display: !(testmonialOpened === 4) && 'none' }}
             className='testmonialContent'
           >
-            <div>
+            <div className='svgIcon'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='132.913'
@@ -295,6 +324,16 @@ export default function Testimonials() {
                   opacity='0.913'
                 />
               </svg>
+            </div>
+
+            <div className='userImage userIamgePhn'>
+              <img
+                src='/assets/testimonials3.png'
+                alt='testimonials1'
+                style={{
+                  width: '180px',
+                }}
+              />
             </div>
             <div
               className='testimonialText'

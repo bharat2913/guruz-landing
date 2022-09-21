@@ -6,7 +6,7 @@ export default function Screen1() {
   const [tab, setTab] = useState(1);
 
   return (
-    <div className='screen1'>
+    <div id='AppFeatures' className='screen1'>
       <div className='horizontalTabs'>
         <div
           className={`horizontalTab ${tab === 1 && 'selected'}`}

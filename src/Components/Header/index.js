@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './index.css';
 
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <header className='guruz_header'>
       <div className='headerContentWrapper'>
@@ -52,11 +54,11 @@ export default function Header() {
           </svg>
         </div>
         <div className='links'>
-          <span>Home</span>
-          <span>App Features</span>
-          <span>Testimonials</span>
-          <span>Blog</span>
-          <span>FAQ</span>
+          <Link to={'/#Home'}>Home</Link>
+          <Link to={'/#AppFeatures'}>App Features</Link>
+          <Link to={'/#Testimonials'}>Testimonials</Link>
+          <Link to={'/#Blogs'}>Blog</Link>
+          <Link to={'/#FAQ'}>FAQ</Link>
         </div>
         <div className='getStarted'>
           <button>Get Started</button>

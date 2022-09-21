@@ -57,6 +57,9 @@ align-items: center; */
 .testimonial .next {
   right: 1rem;
 }
+.testimonial .userIamgePhn {
+  display: none;
+}
 
 @media (max-width: 426px) {
   .testimonials .testimonial .testimonialImg,
@@ -75,5 +78,19 @@ align-items: center; */
   }
   .testimonial .next {
     right: 0rem;
+  }
+
+  .testimonial .svgIcon {
+    display: none;
+  }
+
+  .testimonial .userIamgePhn {
+    display: block !important;
+  }
+  .testimonial .userIamgePhn img {
+    width: 100% !important;
+    height: 160px !important;
+    object-fit: cover;
+    border-radius: 20px;
   }
 }

@@ -1,6 +1,6 @@
 .blogDetail {
   background-color: #fff;
-  padding: 4rem 10%;
+  width: 70%;
 }
 .blogDetail .blogTitle {
   font-size: 42px;
@@ -8,10 +8,21 @@
   font-weight: 600;
   margin-bottom: 2rem;
 }
+.blogDetail .blogImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* width: 100vw; */
+}
+.blogDetail .blogImg img {
+  max-width: 100%;
+  border-radius: 20px;
+}
 
 @media (max-width: 426px) {
   .blogDetail {
-    padding: 2rem;
+    width: 100%;
   }
   .blogDetail .blogTitle {
     font-size: 32px;

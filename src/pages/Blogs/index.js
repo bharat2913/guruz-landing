@@ -5,7 +5,7 @@ import './index.css';
 export default function Blogs() {
   const navigate = useNavigate();
   return (
-    <div className='blogs'>
+    <div id='Blogs' className='blogs'>
       <div className='blogsText'>
         <div style={{ fontSize: '14px', color: '#F5A041', fontWeight: '600' }}>
           Editors Pick
@@ -23,7 +23,7 @@ export default function Blogs() {
         </div>
       </div>
       <div className='blogsLinks'>
-        <div onClick={() => navigate(`/blog/1`)} className='blog'>
+        <div onClick={() => navigate(`/blog/${'1'}`)} className='blog'>
           <img src='/assets/blog1.png' alt='blog1' />
           <div className='blogData'>
             <div>How I found my guitar coach</div>
